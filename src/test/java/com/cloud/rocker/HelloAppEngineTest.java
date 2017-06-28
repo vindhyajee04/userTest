@@ -71,7 +71,7 @@ public class HelloAppEngineTest {
 
   @Test
   public void doGet_writesResponse() throws Exception {
-  //  servletUnderTest.doGet(mockRequest, mockResponse);
+   servletUnderTest.doGet(mockRequest, mockResponse);
 
     // We expect our hello world response.
     assertThat(responseWriter.toString())
